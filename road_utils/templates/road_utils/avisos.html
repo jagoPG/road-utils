@@ -1,0 +1,34 @@
+{% extends "road_utils/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block content %}
+<script type="text/javascript" src="{% static 'road_utils/js/avisos.js' %}"></script>
+<div class="container">
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4"><img class="img-responsive signal" src="{% static 'road_utils/images/señales/fin.png' %}" id="img" alt="noalert" width="320" heigth="280"></div>
+	</div>
+	
+	<!-- Inicio de bloque de debug -->
+	<!-- En la aplicación real esta parte no existiría. Tan solo sirve para ver que los eventos aparecen en las coordenadas
+	correspondientes. -->
+	
+	<div class="container">
+		<div class="jumbotron">
+			<p class="bg-info">(*) Solo para debuggear y probar la aplicación.</p>
+			
+			<label class="checkbox-inline">
+				<div class="radio"><input type="checkbox" name="geolocation">Activar geolocalización</div>
+			</label>	
+		
+			<div class="row">
+				<div class="col-md-4"><input type="text" class="form-control" placeholder="Latitud" name="latitud"></div>
+				<div class="col-md-4"><input type="text" class="form-control" placeholder="Longitud" name="longitud"></div>
+				<div class="col-md-2"><input type="button" class="form-control btn-primary" id="bSend" value="Test"></div>
+			</div>
+		</div>
+	</div>
+	<!-- Fin de bloque para debuguear -->
+</div>
+{% endblock %}

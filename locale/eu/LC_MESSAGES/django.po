@@ -1,0 +1,626 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-25 22:41+0100\n"
+"PO-Revision-Date: 2015-11-25 22:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: Jagoba <jagobaperez92@opendeusto.es>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: .\road_utils\templates\road_utils\accidente.html:11
+msgid ""
+"Rellene con los datos que sean pertinentes. Tenga cuidado de no dejar ningún "
+"campo requerido sin rellenar; campos con el símbolo (*)."
+msgstr ""
+"Bete ezazu formularioa datu egokiekin. Kontuz zuri eremu hutz uztean; "
+"sinbolo (*) eremuak."
+
+#: .\road_utils\templates\road_utils\accidente.html:14
+#: .\road_utils\templates\road_utils\accidente.html:22
+msgid "Datos generales"
+msgstr "Datu jenerala"
+
+#: .\road_utils\templates\road_utils\accidente.html:15
+#: .\road_utils\templates\road_utils\accidente.html:48
+msgid "Vehículo 1"
+msgstr "1 ibilgailu"
+
+#: .\road_utils\templates\road_utils\accidente.html:16
+#: .\road_utils\templates\road_utils\accidente.html:79
+msgid "Vehículo 2"
+msgstr "2 ibilgailu"
+
+#: .\road_utils\templates\road_utils\accidente.html:23
+msgid "Fecha y hora"
+msgstr "Eguna eta ordu"
+
+#: .\road_utils\templates\road_utils\accidente.html:24
+msgid "Localización"
+msgstr "Tokia"
+
+#: .\road_utils\templates\road_utils\accidente.html:24
+msgid "lugar, país"
+msgstr "toki, herrialde"
+
+#: .\road_utils\templates\road_utils\accidente.html:25
+msgid "Víctimas"
+msgstr "Biktima"
+
+#: .\road_utils\templates\road_utils\accidente.html:27
+msgid "Sí"
+msgstr "Bai"
+
+#: .\road_utils\templates\road_utils\accidente.html:30
+msgid "No"
+msgstr "Ez"
+
+#: .\road_utils\templates\road_utils\accidente.html:33
+msgid "Daños materiales"
+msgstr "Materiazko kalteak"
+
+#: .\road_utils\templates\road_utils\accidente.html:35
+msgid "Vehículos distintos de A y B"
+msgstr "A eta B ibilgailu ezberdin"
+
+#: .\road_utils\templates\road_utils\accidente.html:38
+msgid "Objetos distintos de vehículos"
+msgstr "Ibilgailu objektu ezberdinak"
+
+#: .\road_utils\templates\road_utils\accidente.html:41
+msgid "Testigos"
+msgstr "Testigu"
+
+#: .\road_utils\templates\road_utils\accidente.html:42
+msgid "DNI, teléfono, dirección..."
+msgstr "NAN, telefono zembakia, norabide..."
+
+#: .\road_utils\templates\road_utils\accidente.html:50
+#: .\road_utils\templates\road_utils\accidente.html:81
+#: .\road_utils\templates\road_utils\reporte-carretera.html:13
+msgid "DNI"
+msgstr "NAN"
+
+#: .\road_utils\templates\road_utils\accidente.html:53
+#: .\road_utils\templates\road_utils\accidente.html:84
+msgid "Matrícula del vehículo"
+msgstr "Ibilgailu matrikula"
+
+#: .\road_utils\templates\road_utils\accidente.html:54
+#: .\road_utils\templates\road_utils\accidente.html:85
+msgid "Matrícula remolque"
+msgstr "Atoi matrikula"
+
+#: .\road_utils\templates\road_utils\accidente.html:56
+#: .\road_utils\templates\road_utils\accidente.html:87
+msgid "Aseguradora"
+msgstr "Aseguratzaile"
+
+#: .\road_utils\templates\road_utils\accidente.html:58
+#: .\road_utils\templates\road_utils\accidente.html:89
+msgid "Nombre"
+msgstr "Izena"
+
+#: .\road_utils\templates\road_utils\accidente.html:61
+#: .\road_utils\templates\road_utils\accidente.html:92
+msgid "Nº de póliza"
+msgstr "Poliza zenbaki"
+
+#: .\road_utils\templates\road_utils\accidente.html:62
+#: .\road_utils\templates\road_utils\accidente.html:93
+msgid "Nº de carta verde"
+msgstr "Berde karta zenbaki"
+
+#: .\road_utils\templates\road_utils\accidente.html:64
+#: .\road_utils\templates\road_utils\accidente.html:95
+msgid "Circunstancias"
+msgstr "Zirkunstantzia"
+
+#: .\road_utils\templates\road_utils\accidente.html:66
+#: .\road_utils\templates\road_utils\accidente.html:97
+msgid "Explique lo sucedido..."
+msgstr "Azal ezazu gertaera"
+
+#: .\road_utils\templates\road_utils\accidente.html:69
+#: .\road_utils\templates\road_utils\accidente.html:100
+msgid "Puntos de choque"
+msgstr "Talka puntuak"
+
+#: .\road_utils\templates\road_utils\accidente.html:70
+#: .\road_utils\templates\road_utils\accidente.html:101
+msgid "Daños apreciados"
+msgstr "Kalteak"
+
+#: .\road_utils\templates\road_utils\accidente.html:73
+#: .\road_utils\templates\road_utils\accidente.html:104
+msgid "Observaciones"
+msgstr "Oharrak"
+
+#: .\road_utils\templates\road_utils\accidente.html:109
+#: .\road_utils\templates\road_utils\reporte-carretera.html:30
+msgid "ENVIAR"
+msgstr "BIDALI"
+
+#: .\road_utils\templates\road_utils\base.html:15
+#: .\road_utils\templates\road_utils\base.html:55
+msgid "Utilidades de Carretera."
+msgstr "Errepide erabilgarritasunak."
+
+#: .\road_utils\templates\road_utils\base.html:38
+msgid "Inicio"
+msgstr "Hasiera"
+
+#: .\road_utils\templates\road_utils\base.html:39
+msgid "Informe Accidente"
+msgstr "Istripu txostena"
+
+#: .\road_utils\templates\road_utils\base.html:40
+msgid "Reporte Calzada"
+msgstr "Galtzada erreportari"
+
+#: .\road_utils\templates\road_utils\base.html:41
+msgid "Avisos"
+msgstr "Abisu"
+
+#: .\road_utils\templates\road_utils\base.html:42
+msgid "Tiempo"
+msgstr "Eguraldi"
+
+#: .\road_utils\templates\road_utils\base.html:55
+msgid "Universidad de Deusto."
+msgstr "Deustuko Unibertzatea."
+
+#: .\road_utils\templates\road_utils\index.html:16
+msgid "Cerrar"
+msgstr "Itxi"
+
+#: .\road_utils\templates\road_utils\index.html:21
+msgid ""
+"<b>RoadPal</b> quiere para tí una conducción más responsable y segura. Las "
+"mejores utilidades para tu día a día en la carretera."
+msgstr ""
+"<b>RoadPal</b> zuri seguru onen eta arduradunen irripeak nahi du. Onen "
+"tresnak zure egunero bidaiak."
+
+#: .\road_utils\templates\road_utils\index.html:24
+msgid "¿Quienes somos?"
+msgstr "Nortzuk gara?"
+
+#: .\road_utils\templates\road_utils\index.html:40
+msgid "Nuestros objetivos"
+msgstr "Gure objektiboak"
+
+#: .\road_utils\templates\road_utils\index.html:43
+msgid ""
+"Tener las carreteras más seguras del estado: manteniendo un bajo número de "
+"accidentes y aplicando las medidas necesarias a los infractores."
+msgstr ""
+"Herrialde seguru onen errepideak: istripu gutxi edukitzen eta hausleri "
+"beharezko neurriak hartzen."
+
+#: .\road_utils\templates\road_utils\index.html:47
+msgid ""
+"Facilitar las herramientas necesarias para responder rápidamente ante un "
+"accidente o una situación de emergencia."
+msgstr ""
+"Istripuan edo larrialde egoeran azkar erantzuteko beharrezko tresnak ematen."
+
+#: .\road_utils\templates\road_utils\index.html:51
+msgid ""
+"Proporcionar toda la información que pueda necesitar un conductor en su día "
+"a día."
+msgstr "Gidari egunero beharrezko informazioa ematen."
+
+#: .\road_utils\templates\road_utils\index.html:55
+msgid "Colaboradores"
+msgstr "Lankide"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:17
+msgid "Carretera"
+msgstr "Errepide  izena"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:18
+msgid "Kilómetro"
+msgstr "Kilometroa"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:21
+msgid "Sentido"
+msgstr "Noranzko"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:24
+msgid "Fecha"
+msgstr "Eguna"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:27
+msgid "Descripción"
+msgstr "Deskribapena"
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:27
+msgid "Describa la razón del reporte."
+msgstr "Deskiba ezazu erreportari arrazoia"
+
+#: .\templates\admin\404.html:4 .\templates\admin\404.html.py:8
+msgid "Page not found"
+msgstr "Orrialde ez aukeratuta"
+
+#: .\templates\admin\404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr "Barkatu, ez da aurkitu orrialde eskatuta"
+
+#: .\templates\admin\500.html:6 .\templates\admin\app_index.html:9
+#: .\templates\admin\auth\user\change_password.html:13
+#: .\templates\admin\base.html:58 .\templates\admin\change_form.html:18
+#: .\templates\admin\change_list.html:40
+#: .\templates\admin\delete_confirmation.html:8
+#: .\templates\admin\delete_selected_confirmation.html:8
+#: .\templates\admin\invalid_setup.html:6
+#: .\templates\admin\object_history.html:6
+msgid "Home"
+msgstr "Hasiera"
+
+#: .\templates\admin\500.html:7
+msgid "Server error"
+msgstr "Sebidore epaitza"
+
+#: .\templates\admin\500.html:11
+msgid "Server error (500)"
+msgstr "Sebidore epaitza (500)"
+
+#: .\templates\admin\500.html:14
+msgid "Server Error <em>(500)</em>"
+msgstr "Sebidore epaitza <em>500</em>"
+
+#: .\templates\admin\500.html:15
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Epaitza gertatu da. Administratori e-mail bidez ohortarazi da eta laster "
+"konponduko da. Eskerrik asko zure pazientziarengatik"
+
+#: .\templates\admin\actions.html:4
+msgid "Run the selected action"
+msgstr "Egin akzio aukeratuta"
+
+#: .\templates\admin\actions.html:4
+msgid "Go"
+msgstr "Joan"
+
+#: .\templates\admin\actions.html:11
+msgid "Click here to select the objects across all pages"
+msgstr "Egin hemen clicka aukeratu objektu orrialde denean"
+
+#: .\templates\admin\actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Aukeratu %(total_count)s %(module_name)s denak"
+
+#: .\templates\admin\actions.html:13
+msgid "Clear selection"
+msgstr "Garbi aukeraketa"
+
+#: .\templates\admin\auth\user\add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+"Lehenengo, izena eta pasahitz sartu. Gero, erabiltzaile hautak aldatuko ahal "
+"izango zara. "
+
+#: .\templates\admin\auth\user\add_form.html:8
+msgid "Enter a username and password."
+msgstr "Izena eta pasahitz sartu"
+
+#: .\templates\admin\auth\user\change_password.html:17
+#: .\templates\admin\auth\user\change_password.html:54
+#: .\templates\admin\base.html:46
+msgid "Change password"
+msgstr "Pasahitz aldatu"
+
+#: .\templates\admin\auth\user\change_password.html:27
+#: .\templates\admin\change_form.html:47 .\templates\admin\change_list.html:67
+#: .\templates\admin\login.html:19
+msgid "Please correct the error below."
+msgstr "Mesedez, zuzendu beherako akats."
+
+#: .\templates\admin\auth\user\change_password.html:27
+#: .\templates\admin\change_form.html:47 .\templates\admin\change_list.html:67
+#: .\templates\admin\login.html:19
+msgid "Please correct the errors below."
+msgstr "Mesedez, zuzendu beherako akatsak."
+
+#: .\templates\admin\auth\user\change_password.html:31
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+"Sar ezazu pasahitz berria <strong>%(username)s</strong> erabiltzaileari."
+
+#: .\templates\admin\base.html:32
+msgid "Welcome,"
+msgstr "Ongi etorri,"
+
+#: .\templates\admin\base.html:37
+msgid "View site"
+msgstr "Ikusi tokia"
+
+#: .\templates\admin\base.html:42
+msgid "Documentation"
+msgstr "Dokumentazio"
+
+#: .\templates\admin\base.html:48
+msgid "Log out"
+msgstr "Irten"
+
+#: .\templates\admin\base_site.html:3
+msgid "Django site admin"
+msgstr "Django leku administratzaile"
+
+#: .\templates\admin\base_site.html:6
+msgid "Django administration"
+msgstr "Django administraritza"
+
+#: .\templates\admin\change_form.html:21 .\templates\admin\index.html:31
+#: .\templates\admin\related_widget_wrapper.html:18
+msgid "Add"
+msgstr "Gehitu"
+
+#: .\templates\admin\change_form.html:33
+#: .\templates\admin\object_history.html:10
+msgid "History"
+msgstr "Historia"
+
+#: .\templates\admin\change_form.html:35
+#: .\templates\admin\edit_inline\stacked.html:10
+#: .\templates\admin\edit_inline\tabular.html:33
+msgid "View on site"
+msgstr "Ikusi tokia"
+
+#: .\templates\admin\change_list.html:58
+#, python-format
+msgid "Add %(name)s"
+msgstr "Gehi %(name)s"
+
+#: .\templates\admin\change_list.html:78
+msgid "Filter"
+msgstr "Iragazi"
+
+#: .\templates\admin\change_list_results.html:17
+msgid "Remove from sorting"
+msgstr "Ezabatu ordena"
+
+#: .\templates\admin\change_list_results.html:18
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Ordena lehentasuna: %(priority_number)s"
+
+#: .\templates\admin\change_list_results.html:19
+msgid "Toggle sorting"
+msgstr "Aldatu ordena"
+
+#: .\templates\admin\delete_confirmation.html:12
+#: .\templates\admin\related_widget_wrapper.html:26
+#: .\templates\admin\submit_line.html:6
+msgid "Delete"
+msgstr "Kendu"
+
+#: .\templates\admin\delete_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"%(object_name)s '%(escaped_object)s' kentzen baduzu erlazionatuta objektu "
+"kenduko dira, baina zure kontua ez du nahiko baimenea hurrengo objektu mota:"
+
+#: .\templates\admin\delete_confirmation.html:25
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+"%(object_name)s '%(escaped_object)s' kentzen baduzu erlazionatuta objektu "
+"kenduko dir"
+
+#: .\templates\admin\delete_confirmation.html:32
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+"%(object_name)s \"%(escaped_object)s\" kentza ziur zaude? Hurrengo objektuak "
+"kenduko dira:"
+
+#: .\templates\admin\delete_confirmation.html:34
+#: .\templates\admin\delete_selected_confirmation.html:33
+msgid "Objects"
+msgstr "Objektuak"
+
+#: .\templates\admin\delete_confirmation.html:41
+#: .\templates\admin\delete_selected_confirmation.html:44
+msgid "Yes, I'm sure"
+msgstr "Bai, ziur nago"
+
+#: .\templates\admin\delete_confirmation.html:42
+#: .\templates\admin\delete_selected_confirmation.html:45
+msgid "No, take me back"
+msgstr "Ez, joan atzera"
+
+#: .\templates\admin\delete_selected_confirmation.html:11
+msgid "Delete multiple objects"
+msgstr "Anizkun objektuak kendu"
+
+#: .\templates\admin\delete_selected_confirmation.html:17
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+" %(objects_name)s  kentzen baduzu erlazionatuta objektu kenduko dira, baina "
+"zure kontua ez du nahiko baimenea hurrengo objektu mota:"
+
+#: .\templates\admin\delete_selected_confirmation.html:24
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr "%(objects_name)s kentzen baduzu erlazionatuta objektu kenduko dir"
+
+#: .\templates\admin\delete_selected_confirmation.html:31
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr "%(objects_name)s kentza ziur zaude? Hurrengo objektuak kenduko dira:"
+
+#: .\templates\admin\edit_inline\stacked.html:8
+#: .\templates\admin\edit_inline\tabular.html:31
+#: .\templates\admin\index.html:37
+#: .\templates\admin\related_widget_wrapper.html:10
+msgid "Change"
+msgstr "Aldatu"
+
+#: .\templates\admin\edit_inline\stacked.html:27
+#: .\templates\admin\edit_inline\tabular.html:81
+msgid "Remove"
+msgstr "Kendu"
+
+#: .\templates\admin\edit_inline\stacked.html:28
+#: .\templates\admin\edit_inline\tabular.html:80
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Erantsi beste %(verbose_name)s"
+
+#: .\templates\admin\edit_inline\tabular.html:17
+msgid "Delete?"
+msgstr "Kendu?"
+
+#: .\templates\admin\filter.html:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr "%(filter_title)sz iragazi"
+
+#: .\templates\admin\includes\object_delete_summary.html:2
+msgid "Summary"
+msgstr "Bildumena"
+
+#: .\templates\admin\index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr "Eredu %(name)s aplikazioan"
+
+#: .\templates\admin\index.html:47
+msgid "You don't have permission to edit anything."
+msgstr "Ez duzu zerbait aldatzeko baimena"
+
+#: .\templates\admin\index.html:55
+msgid "Recent Actions"
+msgstr "Egintza berri"
+
+#: .\templates\admin\index.html:56
+msgid "My Actions"
+msgstr "Nire egintzak"
+
+#: .\templates\admin\index.html:60
+msgid "None available"
+msgstr "Ezein erabilgarri"
+
+#: .\templates\admin\index.html:74
+msgid "Unknown content"
+msgstr "Neurrizko ezezagun"
+
+#: .\templates\admin\invalid_setup.html:12
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+"Edozein txarto dago zure datu-basean. Finka ezazu zure datu-basen taulak "
+"egin diren, eta erabiltzaileak irakurtzeko baimena badauka."
+
+#: .\templates\admin\login.html:45
+msgid "Forgotten your password or username?"
+msgstr "Pasa-hitz edo erabiltzaile izana ahaztu duzu?"
+
+#: .\templates\admin\login.html:49
+msgid "Log in"
+msgstr "Sartu"
+
+#: .\templates\admin\object_history.html:22
+msgid "Date/time"
+msgstr "Egun/hordu"
+
+#: .\templates\admin\object_history.html:23
+msgid "User"
+msgstr "Erabiltzailea"
+
+#: .\templates\admin\object_history.html:24
+msgid "Action"
+msgstr "Egintza"
+
+#: .\templates\admin\object_history.html:38
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+"Objektu hau ez du aldaketa historiarik. Segur aski ez da gahigeririk "
+"administratzaile lekuan."
+
+#: .\templates\admin\pagination.html:10 .\templates\admin\search_form.html:9
+msgid "Show all"
+msgstr "Erakutsi denak"
+
+#: .\templates\admin\pagination.html:11 .\templates\admin\submit_line.html:3
+msgid "Save"
+msgstr "Gorde"
+
+#: .\templates\admin\related_widget_wrapper.html:8
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "Aldatu aukeratuta %(model)s"
+
+#: .\templates\admin\related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr "Erantsi beste %(model)s"
+
+#: .\templates\admin\related_widget_wrapper.html:24
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "Ken aukeratuta %(model)s"
+
+#: .\templates\admin\search_form.html:7
+msgid "Search"
+msgstr "Bilatu"
+
+#: .\templates\admin\search_form.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "%(counter)s emaitza"
+msgstr[1] "%(counter)s emaitzak"
+
+#: .\templates\admin\search_form.html:9
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "%(full_result_count)s guztizko"
+
+#: .\templates\admin\submit_line.html:8
+msgid "Save as new"
+msgstr "Gorde berria"
+
+#: .\templates\admin\submit_line.html:9
+msgid "Save and add another"
+msgstr "Gorde eta erantsi beste"
+
+#: .\templates\admin\submit_line.html:10
+msgid "Save and continue editing"
+msgstr "Gorde eta jarraitu editatzen"

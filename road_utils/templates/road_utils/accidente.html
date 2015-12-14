@@ -1,0 +1,243 @@
+{% extends "road_utils/base.html" %} {% load staticfiles %} {% load i18n %} {% block content %}
+<script type="text/javascript" src="{% static 'road_utils/js/incidencia.js' %}"></script>
+<script type="text/javascript" src="{% static 'road_utils/js/util.js' %}"></script>
+
+<div id="content">
+	<div id="form">
+		<p>{% trans "Rellene con los datos que sean pertinentes. Tenga cuidado de no dejar ningún campo requerido sin rellenar; campos con el símbolo (*)." %}</p>
+		<!-- data content -->
+		<ul class="nav nav-tabs">
+			<li class="active"><a data-toggle="tab" href="#home">{% trans "Datos generales" %}</a></li>
+			<li><a data-toggle="tab" href="#menu1">{% trans "Vehículo 1" %}</a></li>
+			<li><a data-toggle="tab" href="#menu2">{% trans "Vehículo 2" %}</a></li>
+		</ul>
+
+		<div class="tab-content">
+			<!-- general data -->
+			<div id="home" class="tab-pane fade in active">
+				<h3>{% trans "Datos generales" %}</h3>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-2">
+							<label for="fechahora">{% trans "Fecha y hora" %}</label>
+						</div>
+						<div class="col-md-3">
+							<input type="text" class="form-control" name="fechahora" id="fechahora" disabled />
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-2">
+							<label for="location">{% trans "Localización" %} (*)</label>
+						</div>
+						<div class="col-md-2">
+							<input type="text" class="form-control" id="location" name="location" placeholder="{% trans 'lugar, país' %}" />
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-3"><span id="victimas"><b>{% trans "Víctimas" %} (*)</b></span></div>
+					</div>
+					<div class="row radio">
+						<div class="radio-inline col-md-2">
+							<label>
+								<input type="radio" name="victims" value="s">{% trans "Sí" %}
+							</label>
+						</div>
+						<div class="radio-inline col-md-2">
+							<label>
+								<input type="radio" name="victims" value="n">{% trans "No" %}
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row checkbox">
+						<div class="col-md-4">
+							<span id="daños_mat"><b>{% trans "Daños materiales" %}</b></span>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="damages" value="othervehicles">{% trans "Vehículos distintos de A y B" %}
+								</label>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="damages" value="otherobjects">{% trans "Objetos distintos de vehículos" %}
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="row">
+						<div class="col-md-4">
+							<label for="witness"><b>{% trans "Testigos" %}</b></label>
+							<textarea rows="5" cols="50" name="witness" id="witness" class="form-control" placeholder="{% trans 'DNI, teléfono, dirección...' %}"></textarea>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<!-- vehicle 1 data -->
+			<div id="menu1" class="tab-pane fade">
+				<h3>{% trans "Vehículo 1" %}</h3>
+				
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="dni1">{% trans "DNI" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="dni1" name="dni1" />
+					</div>
+				</div>
+				
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="matvehiculo1">{% trans "Matrícula del vehículo" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="matvehiculo1" name="matvehiculo1">
+					</div>
+					<div class="col-md-2">
+						<label for="matremolque1">{% trans "Matrícula remolque" %}</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="matremolque1" name="matremolque1">
+					</div>
+				</div>
+				
+				<h3>{% trans "Aseguradora" %}</h3>
+				
+				<div class="form-group row">
+					<div class="col-md-2"><label for="nom_aseguradora1">{% trans "Nombre" %} (*)</label></div>
+					<div class="col-md-2"><input type="text" class="form-control" id="nom_aseguradora1" name="nom_aseguradora1" /></div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="num_poliza1">{% trans "Nº de póliza" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="num_cartav1" name="num_poliza1" />
+					</div>
+					<div class="col-md-2">
+						<label for="num_cartav1">{% trans "Nº de carta verde" %}</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="num_cartav1" name="num_cartav1" />
+					</div>
+				</div>
+				
+				<h3>{% trans "Circunstancias" %}</h3>
+				<div class="form-group row">
+					<div class="col-md-8">
+						<textarea name="circunstancias1" class="form-control" rows="5" placeholder="{% trans 'Explique lo sucedido...' %}" /></textarea>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-4">
+						<label for="ptoschoque1">{% trans "Puntos de choque" %} (*)
+							<input type="text" class="form-control" name="ptoschoque1" id="ptoschoque1" size="50" />
+						</label>
+					</div>
+					<div class="col-md-4">
+						<label for="daños1">{% trans "Daños apreciados" %} (*)
+							<input type="text" class="form-control" name="daños1" id="daños1" size="50" />
+						</label>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="comentarios1">{% trans "Observaciones" %}</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" id="comentarios1" name="comentarios1" size="50" />
+					</div>
+				</div>
+			</div>
+
+			<!-- vehicle 2 data -->
+			<div id="menu2" class="tab-pane fade">
+				<h3>{% trans "Vehículo 2" %}</h3>
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="dni2">{% trans "DNI" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="dni2" name="dni2" />
+					</div>
+				</div>
+				
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="matvehiculo2">{% trans "Matrícula del vehículo" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="matvehiculo2" name="matvehiculo2">
+					</div>
+					<div class="col-md-2">
+						<label for="matremolque2">{% trans "Matrícula remolque" %}</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="matremolque2" name="matremolque2">
+					</div>
+				</div>
+				
+				<h3>{% trans "Aseguradora" %}</h3>
+				
+				<div class="form-group row">
+					<div class="col-md-2"><label for="nom_aseguradora2">{% trans "Nombre" %} (*)</label></div>
+					<div class="col-md-2"><input type="text" class="form-control" id="nom_aseguradora2" name="nom_aseguradora2" /></div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="num_poliza2">{% trans "Nº de póliza" %} (*)</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="num_cartav2" name="num_poliza2" />
+					</div>
+					<div class="col-md-2">
+						<label for="num_cartav2">{% trans "Nº de carta verde" %}</label>
+					</div>
+					<div class="col-md-2">
+						<input type="text" class="form-control" id="num_cartav2" name="num_cartav2" />
+					</div>
+				</div>
+				
+				<h3>{% trans "Circunstancias" %}</h3>
+				<div class="form-group row">
+					<div class="col-md-8">
+						<textarea name="circunstancias2" class="form-control" rows="5" placeholder="{% trans 'Explique lo sucedido...' %}" /></textarea>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-4">
+						<label for="ptoschoque2">{% trans "Puntos de choque" %} (*)
+							<input type="text" class="form-control" name="ptoschoque2" id="ptoschoque2" size="50" />
+						</label>
+					</div>
+					<div class="col-md-4">
+						<label for="daños2">{% trans "Daños apreciados" %} (*)
+							<input type="text" class="form-control" name="daños2" id="daños2" size="50" />
+						</label>
+					</div>
+				</div>
+				<div class="form-group row">
+					<div class="col-md-2">
+						<label for="comentarios2">{% trans "Observaciones" %}</label>
+					</div>
+					<div class="col-md-6">
+						<input type="text" class="form-control" id="comentarios2" name="comentarios2" size="50" />
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<input type="button" id="submit" class="btn btn-primary" value="{% trans 'ENVIAR' %}">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+{% endblock %}

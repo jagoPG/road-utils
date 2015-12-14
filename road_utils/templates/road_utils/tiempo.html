@@ -1,0 +1,22 @@
+{% extends "road_utils/base.html" %}
+{% load staticfiles %} 
+{% load i18n %}
+{% block content %}
+<script type="text/javascript" src="{% static 'road_utils/js/tiempo.js' %}"></script>
+<div class="container">
+	<div class="jumbotron">
+		<p><select name="comarcas" class="form-control"></select></p>
+		<div class="row">
+			<div class="col-md-10"><p id="descr"></p></div>
+		</div>
+		<div class="row objetivo">
+			<div class="col-md-1"><img id="cuadro-flotante-imgtemp"  class="icon" /></div>
+			<div class="col-md-10"><span id="temp-descr"></span></div>
+		</div>
+		<div class="row objetivo">
+			<div class="col-md-1"><img id="cuadro-flotante-imgtiempo"  class="icon" /></div>
+			<div class="col-md-10"><span id="tiempo-descr"></span></div>
+		</div>
+	</div>
+</div>
+{% endblock %}

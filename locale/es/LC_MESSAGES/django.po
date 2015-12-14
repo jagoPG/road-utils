@@ -1,0 +1,623 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-11-25 22:39+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: .\road_utils\templates\road_utils\accidente.html:11
+msgid ""
+"Rellene con los datos que sean pertinentes. Tenga cuidado de no dejar ningún "
+"campo requerido sin rellenar; campos con el símbolo (*)."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:14
+#: .\road_utils\templates\road_utils\accidente.html:22
+msgid "Datos generales"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:15
+#: .\road_utils\templates\road_utils\accidente.html:48
+msgid "Vehículo 1"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:16
+#: .\road_utils\templates\road_utils\accidente.html:79
+msgid "Vehículo 2"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:23
+msgid "Fecha y hora"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:24
+msgid "Localización"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:24
+msgid "lugar, país"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:25
+msgid "Víctimas"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:27
+msgid "Sí"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:30
+msgid "No"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:33
+msgid "Daños materiales"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:35
+msgid "Vehículos distintos de A y B"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:38
+msgid "Objetos distintos de vehículos"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:41
+msgid "Testigos"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:42
+msgid "DNI, teléfono, dirección..."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:50
+#: .\road_utils\templates\road_utils\accidente.html:81
+#: .\road_utils\templates\road_utils\reporte-carretera.html:13
+msgid "DNI"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:53
+#: .\road_utils\templates\road_utils\accidente.html:84
+msgid "Matrícula del vehículo"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:54
+#: .\road_utils\templates\road_utils\accidente.html:85
+msgid "Matrícula remolque"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:56
+#: .\road_utils\templates\road_utils\accidente.html:87
+msgid "Aseguradora"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:58
+#: .\road_utils\templates\road_utils\accidente.html:89
+msgid "Nombre"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:61
+#: .\road_utils\templates\road_utils\accidente.html:92
+msgid "Nº de póliza"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:62
+#: .\road_utils\templates\road_utils\accidente.html:93
+msgid "Nº de carta verde"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:64
+#: .\road_utils\templates\road_utils\accidente.html:95
+msgid "Circunstancias"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:66
+#: .\road_utils\templates\road_utils\accidente.html:97
+msgid "Explique lo sucedido..."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:69
+#: .\road_utils\templates\road_utils\accidente.html:100
+msgid "Puntos de choque"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:70
+#: .\road_utils\templates\road_utils\accidente.html:101
+msgid "Daños apreciados"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:73
+#: .\road_utils\templates\road_utils\accidente.html:104
+msgid "Observaciones"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\accidente.html:109
+#: .\road_utils\templates\road_utils\reporte-carretera.html:30
+msgid "ENVIAR"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:15
+#: .\road_utils\templates\road_utils\base.html:55
+msgid "Utilidades de Carretera."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:38
+msgid "Inicio"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:39
+msgid "Informe Accidente"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:40
+msgid "Reporte Calzada"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:41
+msgid "Avisos"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:42
+msgid "Tiempo"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\base.html:55
+msgid "Universidad de Deusto."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:16
+msgid "Cerrar"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:21
+msgid ""
+"<b>RoadPal</b> quiere para tí una conducción más responsable y segura. Las "
+"mejores utilidades para tu día a día en la carretera."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:24
+msgid "¿Quienes somos?"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:40
+msgid "Nuestros objetivos"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:43
+msgid ""
+"Tener las carreteras más seguras del estado: manteniendo un bajo número de "
+"accidentes y aplicando las medidas necesarias a los infractores."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:47
+msgid ""
+"Facilitar las herramientas necesarias para responder rápidamente ante un "
+"accidente o una situación de emergencia."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:51
+msgid ""
+"Proporcionar toda la información que pueda necesitar un conductor en su día "
+"a día."
+msgstr ""
+
+#: .\road_utils\templates\road_utils\index.html:55
+msgid "Colaboradores"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:17
+msgid "Carretera"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:18
+msgid "Kilómetro"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:21
+msgid "Sentido"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:24
+msgid "Fecha"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:27
+msgid "Descripción"
+msgstr ""
+
+#: .\road_utils\templates\road_utils\reporte-carretera.html:27
+msgid "Describa la razón del reporte."
+msgstr ""
+
+#: .\templates\admin\404.html:4 .\templates\admin\404.html.py:8
+msgid "Page not found"
+msgstr "Página no encontrada"
+
+#: .\templates\admin\404.html:10
+msgid "We're sorry, but the requested page could not be found."
+msgstr "Disculpe, la página solicitada no ha sido encontrada."
+
+#: .\templates\admin\500.html:6 .\templates\admin\app_index.html:9
+#: .\templates\admin\auth\user\change_password.html:13
+#: .\templates\admin\base.html:58 .\templates\admin\change_form.html:18
+#: .\templates\admin\change_list.html:40
+#: .\templates\admin\delete_confirmation.html:8
+#: .\templates\admin\delete_selected_confirmation.html:8
+#: .\templates\admin\invalid_setup.html:6
+#: .\templates\admin\object_history.html:6
+msgid "Home"
+msgstr "Inicio"
+
+#: .\templates\admin\500.html:7
+msgid "Server error"
+msgstr "Error del servidor"
+
+#: .\templates\admin\500.html:11
+msgid "Server error (500)"
+msgstr "Error del servidor (500)"
+
+#: .\templates\admin\500.html:14
+msgid "Server Error <em>(500)</em>"
+msgstr "Error del servidor <em>(500)</em>"
+
+#: .\templates\admin\500.html:15
+msgid ""
+"There's been an error. It's been reported to the site administrators via "
+"email and should be fixed shortly. Thanks for your patience."
+msgstr ""
+"Ha ocurrido un error. Ha sido reportado al sitio del administrador a través "
+"de email y debería ser solucionado pronto. Gracias por su paciencia"
+
+#: .\templates\admin\actions.html:4
+msgid "Run the selected action"
+msgstr "Ejecutar la acción seleccionada"
+
+#: .\templates\admin\actions.html:4
+msgid "Go"
+msgstr "Ir"
+
+#: .\templates\admin\actions.html:11
+msgid "Click here to select the objects across all pages"
+msgstr "Pinche aquí para seleccionar los objetos de todas las páginas"
+
+#: .\templates\admin\actions.html:11
+#, python-format
+msgid "Select all %(total_count)s %(module_name)s"
+msgstr "Seleccionar todos %(total_count)s %(module_name)s"
+
+#: .\templates\admin\actions.html:13
+msgid "Clear selection"
+msgstr "Deseleccionar"
+
+#: .\templates\admin\auth\user\add_form.html:6
+msgid ""
+"First, enter a username and password. Then, you'll be able to edit more user "
+"options."
+msgstr ""
+"Primero ingrese un usuario y la contrase&ntilde;a. Después, podrá editar más "
+"opciones de usuario."
+
+#: .\templates\admin\auth\user\add_form.html:8
+msgid "Enter a username and password."
+msgstr "Ingrese un nombre de usuario y contraseña."
+
+#: .\templates\admin\auth\user\change_password.html:17
+#: .\templates\admin\auth\user\change_password.html:54
+#: .\templates\admin\base.html:46
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+#: .\templates\admin\auth\user\change_password.html:27
+#: .\templates\admin\change_form.html:47 .\templates\admin\change_list.html:67
+#: .\templates\admin\login.html:19
+msgid "Please correct the error below."
+msgstr "Por favor, corrija el error mostrado en la parte inferior."
+
+#: .\templates\admin\auth\user\change_password.html:27
+#: .\templates\admin\change_form.html:47 .\templates\admin\change_list.html:67
+#: .\templates\admin\login.html:19
+msgid "Please correct the errors below."
+msgstr "Por favor, corrija los errores descritos."
+
+#: .\templates\admin\auth\user\change_password.html:31
+#, python-format
+msgid "Enter a new password for the user <strong>%(username)s</strong>."
+msgstr ""
+"Ingrese una nueva contraseña para el usuario <strong>%(username)s</strong>."
+
+#: .\templates\admin\base.html:32
+msgid "Welcome,"
+msgstr "Bienvenido,"
+
+#: .\templates\admin\base.html:37
+msgid "View site"
+msgstr "Ver sitio"
+
+#: .\templates\admin\base.html:42
+msgid "Documentation"
+msgstr "Documentación"
+
+#: .\templates\admin\base.html:48
+msgid "Log out"
+msgstr "Cerrar sesión"
+
+#: .\templates\admin\base_site.html:3
+msgid "Django site admin"
+msgstr "Sitio de administración de Django"
+
+#: .\templates\admin\base_site.html:6
+msgid "Django administration"
+msgstr "Administración de Django"
+
+#: .\templates\admin\change_form.html:21 .\templates\admin\index.html:31
+#: .\templates\admin\related_widget_wrapper.html:18
+msgid "Add"
+msgstr "Añadir"
+
+#: .\templates\admin\change_form.html:33
+#: .\templates\admin\object_history.html:10
+msgid "History"
+msgstr "Historial"
+
+#: .\templates\admin\change_form.html:35
+#: .\templates\admin\edit_inline\stacked.html:10
+#: .\templates\admin\edit_inline\tabular.html:33
+msgid "View on site"
+msgstr "Ver sitio"
+
+#: .\templates\admin\change_list.html:58
+#, python-format
+msgid "Add %(name)s"
+msgstr "Añadir %(name)s"
+
+#: .\templates\admin\change_list.html:78
+msgid "Filter"
+msgstr "Filtro"
+
+#: .\templates\admin\change_list_results.html:17
+msgid "Remove from sorting"
+msgstr "Eliminar del ordenado"
+
+#: .\templates\admin\change_list_results.html:18
+#, python-format
+msgid "Sorting priority: %(priority_number)s"
+msgstr "Prioridad de orden: %(priority_number)s"
+
+#: .\templates\admin\change_list_results.html:19
+msgid "Toggle sorting"
+msgstr "Cambiar ordenado"
+
+#: .\templates\admin\delete_confirmation.html:12
+#: .\templates\admin\related_widget_wrapper.html:26
+#: .\templates\admin\submit_line.html:6
+msgid "Delete"
+msgstr "Eliminar"
+
+#: .\templates\admin\delete_confirmation.html:18
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would result in deleting "
+"related objects, but your account doesn't have permission to delete the "
+"following types of objects:"
+msgstr ""
+"Eliminar el %(object_name)s '%(escaped_object)s' puede eliminar objetos "
+"relacionados, pero su cuenta no tiene permiso para eliminar los siguientes "
+"tipos de objetos:"
+
+#: .\templates\admin\delete_confirmation.html:25
+#, python-format
+msgid ""
+"Deleting the %(object_name)s '%(escaped_object)s' would require deleting the "
+"following protected related objects:"
+msgstr ""
+"Eliminar el %(object_name)s '%(escaped_object)s' puede requerir eliminar los "
+"siguientes objetos relacionados protegidos:"
+
+#: .\templates\admin\delete_confirmation.html:32
+#, python-format
+msgid ""
+"Are you sure you want to delete the %(object_name)s \"%(escaped_object)s\"? "
+"All of the following related items will be deleted:"
+msgstr ""
+"¿Esta seguro de que desea eliminar %(object_name)s '%(escaped_object)s? "
+"Todos los objetos relacionados serán eliminados"
+
+#: .\templates\admin\delete_confirmation.html:34
+#: .\templates\admin\delete_selected_confirmation.html:33
+msgid "Objects"
+msgstr "Objetos"
+
+#: .\templates\admin\delete_confirmation.html:41
+#: .\templates\admin\delete_selected_confirmation.html:44
+msgid "Yes, I'm sure"
+msgstr "Si, lo estoy"
+
+#: .\templates\admin\delete_confirmation.html:42
+#: .\templates\admin\delete_selected_confirmation.html:45
+msgid "No, take me back"
+msgstr "No, volver atrás"
+
+#: .\templates\admin\delete_selected_confirmation.html:11
+msgid "Delete multiple objects"
+msgstr "Eliminar multiples objetos"
+
+#: .\templates\admin\delete_selected_confirmation.html:17
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would result in deleting related "
+"objects, but your account doesn't have permission to delete the following "
+"types of objects:"
+msgstr ""
+"Eliminar el %(objects_name)s seleccionado puede eliminar los objetos "
+"relacionados, pero su cuenta no tiene los permisos necesarios para eliminar "
+"los siguientes tipos de objetos:"
+
+#: .\templates\admin\delete_selected_confirmation.html:24
+#, python-format
+msgid ""
+"Deleting the selected %(objects_name)s would require deleting the following "
+"protected related objects:"
+msgstr ""
+"Eliminar el %(objects_name)s seleccionado puede requerir elminar los "
+"siguientes objetos relacionados:"
+
+#: .\templates\admin\delete_selected_confirmation.html:31
+#, python-format
+msgid ""
+"Are you sure you want to delete the selected %(objects_name)s? All of the "
+"following objects and their related items will be deleted:"
+msgstr ""
+"¿Está seguro de eliminar el %(objects_name)s seleccionado? Todos los "
+"siguientes objetos y sus objetos relacionados serán eliminados:"
+
+#: .\templates\admin\edit_inline\stacked.html:8
+#: .\templates\admin\edit_inline\tabular.html:31
+#: .\templates\admin\index.html:37
+#: .\templates\admin\related_widget_wrapper.html:10
+msgid "Change"
+msgstr "Cambiar"
+
+#: .\templates\admin\edit_inline\stacked.html:27
+#: .\templates\admin\edit_inline\tabular.html:81
+msgid "Remove"
+msgstr "Eliminar"
+
+#: .\templates\admin\edit_inline\stacked.html:28
+#: .\templates\admin\edit_inline\tabular.html:80
+#, python-format
+msgid "Add another %(verbose_name)s"
+msgstr "Añadir otro %(verbose_name)s"
+
+#: .\templates\admin\edit_inline\tabular.html:17
+msgid "Delete?"
+msgstr "¿Eliminar?"
+
+#: .\templates\admin\filter.html:2
+#, python-format
+msgid " By %(filter_title)s "
+msgstr "Por %(filter_title)s"
+
+#: .\templates\admin\includes\object_delete_summary.html:2
+msgid "Summary"
+msgstr "Resumen"
+
+#: .\templates\admin\index.html:20
+#, python-format
+msgid "Models in the %(name)s application"
+msgstr "Modelos en la aplicación %(name)s"
+
+#: .\templates\admin\index.html:47
+msgid "You don't have permission to edit anything."
+msgstr "No tiene permiso para editar"
+
+#: .\templates\admin\index.html:55
+msgid "Recent Actions"
+msgstr "Acciones recientes"
+
+#: .\templates\admin\index.html:56
+msgid "My Actions"
+msgstr "Mis acciones"
+
+#: .\templates\admin\index.html:60
+msgid "None available"
+msgstr "Ninguna disponible"
+
+#: .\templates\admin\index.html:74
+msgid "Unknown content"
+msgstr "Contenido desconocido"
+
+#: .\templates\admin\invalid_setup.html:12
+msgid ""
+"Something's wrong with your database installation. Make sure the appropriate "
+"database tables have been created, and make sure the database is readable by "
+"the appropriate user."
+msgstr ""
+"Algo ha ido mal en la instalación de la base de datos. Asegurese de que las "
+"tablas de la base de datos han sido credas, y que el usuario tiene permisos."
+
+#: .\templates\admin\login.html:45
+msgid "Forgotten your password or username?"
+msgstr "¿Nombre de usuario o contraseña olvidada?"
+
+#: .\templates\admin\login.html:49
+msgid "Log in"
+msgstr "Conectar"
+
+#: .\templates\admin\object_history.html:22
+msgid "Date/time"
+msgstr "Fecha/hora"
+
+#: .\templates\admin\object_history.html:23
+msgid "User"
+msgstr "Usuario"
+
+#: .\templates\admin\object_history.html:24
+msgid "Action"
+msgstr "Acción"
+
+#: .\templates\admin\object_history.html:38
+msgid ""
+"This object doesn't have a change history. It probably wasn't added via this "
+"admin site."
+msgstr ""
+"Este objeto no tiene historial de cambios. No ha sido añadido en el sitio "
+"del administrador."
+
+#: .\templates\admin\pagination.html:10 .\templates\admin\search_form.html:9
+msgid "Show all"
+msgstr "Mostrar todos"
+
+#: .\templates\admin\pagination.html:11 .\templates\admin\submit_line.html:3
+msgid "Save"
+msgstr "Guardar"
+
+#: .\templates\admin\related_widget_wrapper.html:8
+#, python-format
+msgid "Change selected %(model)s"
+msgstr "Cambiar el %(model)s seleccionado"
+
+#: .\templates\admin\related_widget_wrapper.html:16
+#, python-format
+msgid "Add another %(model)s"
+msgstr "Añadir otro %(model)s"
+
+#: .\templates\admin\related_widget_wrapper.html:24
+#, python-format
+msgid "Delete selected %(model)s"
+msgstr "Eliminar el %(model)s seleccionado"
+
+#: .\templates\admin\search_form.html:7
+msgid "Search"
+msgstr "Buscar"
+
+#: .\templates\admin\search_form.html:9
+#, python-format
+msgid "%(counter)s result"
+msgid_plural "%(counter)s results"
+msgstr[0] "Resultado de %(counter)s"
+msgstr[1] "Resultados de %(counter)s"
+
+#: .\templates\admin\search_form.html:9
+#, python-format
+msgid "%(full_result_count)s total"
+msgstr "%(full_result_count)s totales"
+
+#: .\templates\admin\submit_line.html:8
+msgid "Save as new"
+msgstr "Guardar como nuevo"
+
+#: .\templates\admin\submit_line.html:9
+msgid "Save and add another"
+msgstr "Guardar y añadir otro"
+
+#: .\templates\admin\submit_line.html:10
+msgid "Save and continue editing"
+msgstr "Guardar y seguir editando"

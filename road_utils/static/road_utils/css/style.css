@@ -1,0 +1,165 @@
+body {
+  padding-top: 50px;
+}
+
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.content {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fav {
+  width: 32px;
+  height: 32px;
+}
+
+.title-img {
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+
+
+@media (max-width: 600px) {
+  .title-img {
+    width: 250px;
+    height: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+}
+
+
+@media (min-width: 600px) {
+  .content {
+    width: 970px;
+  }
+  
+  .title-img {
+    width: 600px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+  
+}
+@media (min-width: 1200px) {
+  .content {
+    width: 1170px;
+  }
+  
+  .title-img {
+    width: 600px;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    visibility: visible;
+  }
+}
+
+.footer {
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	background-color: #080808;
+	color: #424242;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-size: .8em;
+}
+
+.summary {
+  margin: 50px 0px 50px 0px;
+  align-items: center;
+  text-align: center;
+  text-decoration: italics;
+  font-size: 2em;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid lightslategrey;
+  border-radius: 5em;
+}
+
+.banner-rect {
+  margin: 5px 40px 5px 0px;
+  width: 300px;
+  height: 110px;
+}
+
+.objetivo {
+  margin: 0px 0px 20px 40px;
+  display: block;
+}
+
+hr.divide {
+  border-style: solid none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-width: 2px 0;
+  margin: 18px 0;
+}
+
+.cuadro-flotante {
+  visibility: hidden;
+  display: none;
+}
+
+@media (min-width: 1000px) {
+    .cuadro-flotante {
+      position: absolute;
+      right:20px;
+      top: 10;
+      background-color: lightblue;
+      border: 1px solid lightslategrey;
+      padding: 20px;
+      border-radius: 15px 50px;
+      width: 300px;
+      z-index: 1;
+      visibility: visible;
+      display: inline-block;
+  } 
+}
+
+
+.fake-text {
+  cursor: pointer;
+}
+
+.tiempo-ico {
+   border-radius: 5em;
+   width: 64px;
+   height: 64px;
+}
+
+.cuadro-flotante-imgs {
+  text-align: center;
+}
+
+#cuadro-flotante-cerrar {
+  float: right;  
+}
+
+.signal {
+  box-shadow: 10px 10px 5px #888888; 
+  border-radius: 50px;
+  margin: 0px 0px 20px 0px;
+}

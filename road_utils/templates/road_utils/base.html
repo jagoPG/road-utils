@@ -1,0 +1,58 @@
+{% load staticfiles %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Desarrollo Avanzado de Software">
+    <meta name="author" content="Jagoba Pérez">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>{% trans "Utilidades de Carretera." %}</title>
+    
+    <link href="{% static 'road_utils/css/bootstrap.css' %}" rel="stylesheet">
+    <link href="{% static 'road_utils/css/style.css' %}" rel="stylesheet">
+    <script src="{% static 'road_utils/js/jquery.js' %}"></script>
+    <script src="{% static 'road_utils/js/bootstrap.js' %}"></script>
+    <script src="{% static 'road_utils/js/effects.js' %}"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <img src="{% static 'road_utils/images/pal.png' %}" class="fav" /><a class="navbar-brand" href="/">ROAD PAL</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/road_utils/index/">{% trans "Inicio" %}</a></li>
+            <li><a href="/road_utils/accidente/">{% trans "Informe Accidente" %}</a></li>
+            <li><a href="/road_utils/reporte/">{% trans "Reporte Calzada" %}</a></li>
+            <li><a href="/road_utils/avisos/">{% trans "Avisos" %}</a></li>
+            <li><a href="/road_utils/tiempo/">{% trans "Tiempo" %}</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end of container -->  
+    
+    <!-- content -->
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
+    <!-- end of content -->
+    <div class="footer">
+      &copy;2015. {% trans "Utilidades de Carretera." %} <a href="http://www.jagobapg.eu">Jagoba P&eacute;rez G&oacute;mez.</a> {% trans "Universidad de Deusto." %}
+    </div>
+  </body>
+</html>

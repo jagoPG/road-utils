@@ -1,0 +1,62 @@
+{% extends "road_utils/base.html" %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block content %}
+<script type="text/javascript" src="{% static 'road_utils/js/cuadro-tiempo.js' %}"></script>
+
+<div class="cuadro-flotante">	
+	<div class="cuadro-flotante-imgs">
+		<img id="cuadro-flotante-imgtemp" class="tiempo-ico" /><img id="cuadro-flotante-imgtiempo" class="tiempo-ico" /></p>
+	</div>
+	<span id="cuadro-flotante-descr"></span>
+	<span class="glyphicon glyphicon-plus fake-text" id="mas-menos" aria-hidden="true"></span>
+	<p><select name="comarcas" class="form-control"></p>
+	</select>
+	<p><input type="button" id="cuadro-flotante-cerrar" class="btn" value="{% trans 'Cerrar' %}"></p>
+</div>
+
+<div class="summary">
+	<img src="{% static 'road_utils/images/nomorevictims.jpg' %}" class="title-img" />
+	{% trans "<b>RoadPal</b> quiere para tí una conducción más responsable y segura. Las mejores utilidades para tu día a día en la carretera." %}
+</div>
+<hr class="divide">
+<h2>{% trans "¿Quienes somos?" %}</h2>
+<p>Lorem fistrum exercitation no te digo trigo por no llamarte Rodrigor no te digo trigo por no llamarte Rodrigor fistro hasta
+luego Lucas. Magna sexuarl torpedo tempor ullamco mamaar a peich. Está la cosa muy malar diodeno elit tempor ese pedazo de
+te voy a borrar el cerito no puedor. Eiusmod no te digo trigo por no llamarte Rodrigor ex ut. Eiusmod nisi se calle ustée
+adipisicing. Reprehenderit voluptate magna diodenoo papaar papaar ahorarr ese pedazo de apetecan de la pradera exercitation
+no te digo trigo por no llamarte Rodrigor. Elit enim veniam voluptate va usté muy cargadoo enim la caidita elit dolore fistro.
+Exercitation cillum al ataquerl magna consectetur pecador consequat exercitation amatomaa al ataquerl. Officia te voy a borrar
+el cerito cillum va usté muy cargadoo ut cillum quis qué dise usteer tempor. Aliqua minim veniam ese que llega consectetur
+adipisicing. Reprehenderit caballo blanco caballo negroorl pupita aute diodenoo está la cosa muy malar la caidita. Pecador
+cillum nostrud ad quis eiusmod duis a gramenawer eiusmod ut. Nisi nostrud me cago en tus muelas quis cillum de la pradera.
+Se calle ustée a peich diodeno et nostrud fistro tempor quietooor pupita enim. Commodo te va a hasé pupitaa pecador veniam
+qui ullamco. Enim adipisicing tempor aute enim quis quietooor minim dolore ut pecador. Irure se calle ustée exercitation
+aute. Ullamco me cago en tus muelas commodo no puedor ullamco nostrud laboris mamaar.</p>
+</div>
+<div class="container">
+	<div class="jumbotron">
+		<h2>{% trans "Nuestros objetivos" %}</h2>
+		<div class="row objetivo">
+			<div class="col-md-1"><img src="{% static 'road_utils/images/pol-security.png' %}" class="icon" /></div>
+			<div class="col-md-10"><p>{% trans "Tener las carreteras más seguras del estado: manteniendo un bajo número de accidentes y aplicando las medidas necesarias a los infractores." %}</p></div>
+		</div>
+		<div class="row objetivo">
+			<div class="col-md-1"><img src="{% static 'road_utils/images/alarm.png' %}" class="icon" /></div>
+			<div class="col-md-10"><p>{% trans "Facilitar las herramientas necesarias para responder rápidamente ante un accidente o una situación de emergencia." %}</p></div>
+		</div>
+		<div class="row objetivo">
+			<div class="col-md-1"><img src="{% static 'road_utils/images/magician.png' %}" class="icon" /></div>
+			<div class="col-md-10"><p>{% trans "Proporcionar toda la información que pueda necesitar un conductor en su día a día." %}</p></div>
+		</div>
+	</div>
+</div>
+<h2>{% trans "Colaboradores" %}</h2>
+<div class="row">
+	<div class="col-md-4"><img src="{% static 'road_utils/images/dgt.jpg' %}" alt="dgt" class="banner-rect" /></div>
+	<div class="col-md-4"><img src="{% static 'road_utils/images/opendata-euskadi.gif' %}" alt="opendata-euskadi" class="banner-rect" /></div>
+	<div class="col-md-2"><img src="{% static 'road_utils/images/nec.png' %}" alt="nec" class="banner-rect" /></div>
+</div>
+<hr class="divide">
+{% endblock %}
